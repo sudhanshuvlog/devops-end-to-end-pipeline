@@ -15,5 +15,5 @@ def client(app):
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    expected_text = quote('Hello1234')
+    expected_text = quote('Hello123456')
     assert expected_text.encode() in response.data
