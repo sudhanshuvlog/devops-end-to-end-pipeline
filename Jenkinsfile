@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Downoading..'
                 git 'https://github.com/sudhanshuvlog/devops-end-to-end-pipeline.git'
-                sh "Code Downloaded Succesfully!"
+                echo "Code Downloaded Succesfully!"
             }
         }
         stage("Setup Ansible"){
