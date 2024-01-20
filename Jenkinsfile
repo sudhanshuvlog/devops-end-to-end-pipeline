@@ -1,6 +1,7 @@
 //This pipeline will pull the code from github and then test it, and everytime it will test in a daynamic docker container slave
 pipeline {
     agent {label "ec2"}
+    when { branch 'master' }
     stages {
         stage('Git') {
             steps {
