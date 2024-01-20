@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build.......,,,,,,,.'
-                git 'https://github.com/Trainersudhanshu/test1repo.git'
+                git 'https://github.com/sudhanshuvlog/devops-end-to-end-pipeline.git'
                 sh "date"
             }
         }
