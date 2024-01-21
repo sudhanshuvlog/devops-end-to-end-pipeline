@@ -1,4 +1,3 @@
-//This pipeline will pull the code from github and then test it, and everytime it will test in a daynamic docker container slave
 pipeline {
     agent {label "ec2"}
     stages {
@@ -57,6 +56,7 @@ pipeline {
             steps{
                 sh "ansible-playbook deployDeployment.yml"
                 sh "chmod +x startservers.sh"
+                echo "Create a Socat to connect to our webserver from the Internet(from the outside of ec2 Instance)"
                 sh "./startservers.sh"
             }
         }
