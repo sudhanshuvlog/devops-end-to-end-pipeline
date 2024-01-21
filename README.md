@@ -71,3 +71,5 @@ Get the Grafana dashboard at port no 3000 on your server
 - Visit [View Pre-Created Grafan Dashbords](https://grafana.com/grafana/dashboards/) to select a pre-created dashboard for monitoring the k8s server, you can copy that dashboard ID, and instead of creating the dashboard from scratch we can import a pre-created dashboard.
 - Now you are good to go! Visualize your complete k8s cluster Now!
 
+- ![Grafana Dashboard Monitoring K8s Cluster](screenshots/grafanaview.png)
+
