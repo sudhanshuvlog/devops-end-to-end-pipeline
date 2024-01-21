@@ -49,6 +49,7 @@ This repository contains an advanced end-to-end DevOps project that integrates v
 - Configure k8s cluster on the created infrastructure
 - Configure Monitoring Tool
 - Deploy the Webserver
+- ![Jenkins Pipeline Stage View](Screenshots/JenkinsPipelineView.png)
 
 ### Step 11: Access the Deployed Webserver
 - Visit http://<your-Prodserver-ip>:8080 to see the deployed webserver.
@@ -71,5 +72,5 @@ Get the Grafana dashboard at port no 3000 on your server
 - Visit [View Pre-Created Grafan Dashbords](https://grafana.com/grafana/dashboards/) to select a pre-created dashboard for monitoring the k8s server, you can copy that dashboard ID, and instead of creating the dashboard from scratch we can import a pre-created dashboard.
 - Now you are good to go! Visualize your complete k8s cluster Now!
 
-- ![Grafana Dashboard Monitoring K8s Cluster](screenshots/grafanaview.png)
+- ![Grafana Dashboard Monitoring K8s Cluster](Screenshots/GrafanaView.png)
 
