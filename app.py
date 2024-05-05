@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return quote('Hello123456')
+        return quote('HelloGFG-18Bye')
 
     return app
 
