@@ -1,4 +1,4 @@
-# Advanced End-to-End DevOps Project
+# Advanced End-to-End DevOps Project 
 
 This repository contains an advanced end-to-end DevOps project that integrates various tools such as Git, Docker, Kubernetes, Helm, GitHub Actions, Jenkins, Terraform, Ansible, Prometheus, Grafana, AWS, and Shell scripts. The project sets up a continuous integration and deployment pipeline.
 
