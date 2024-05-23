@@ -4,9 +4,9 @@
 name: Python package
 on:
   # push:
-  #   branches: [ "master" ]
+  #   branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -40,6 +40,7 @@ jobs:
 
   build-and-push-image-to-dockerhub:
       runs-on: ubuntu-latest
+      need: [build]
       steps:
         -
           name: Set up QEMU
@@ -58,4 +59,4 @@ jobs:
           uses: docker/build-push-action@v5
           with:
             push: true
-            tags: jinny1/flaskapp:latest
+            tags: ramgoswami3/flaskapp:latest
