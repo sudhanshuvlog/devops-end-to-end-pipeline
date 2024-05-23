@@ -1,11 +1,21 @@
-data "aws_ami" "latest_amazon_linux"{
-    most_recent = true
-    owners = ["137112412989"]
-    filter {
+data "aws_ami" "latest_amazon_linux" {
+  most_recent      = true
+  owners           = ["amazon"]
+
+  filter {
     name   = "name"
-    values = ["al2023-ami-2023.3.20231218.0-kernel-6.1-x86_64"]
+    values = ["al2023-ami-2023.*-x86_64"]
   }
 
+  filter {
+    name   = "root-device-type"
+    values = ["ebs"]
+  }
+
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
 }
 
 data "aws_vpcs" "default_vpc" {
