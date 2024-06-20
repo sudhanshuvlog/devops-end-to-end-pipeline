@@ -59,4 +59,4 @@ jobs:
           uses: docker/build-push-action@v5
           with:
             push: true
-            tags: jinny1/flaskapp:latest
+            tags: vijaypare/flaskapp:latest
