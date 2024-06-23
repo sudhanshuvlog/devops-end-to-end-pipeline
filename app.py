@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return quote('Hello_world this is my first cicd pipeline')
+        return quote('Hello_world')
 
     return app
 
