@@ -2,6 +2,10 @@
 
 This repository contains an advanced end-to-end DevOps project that integrates various tools such as Git, Docker, Kubernetes, Helm, GitHub Actions, Jenkins, Terraform, Ansible, Prometheus, Grafana, AWS, and Shell scripts. The project sets up a continuous integration and deployment pipeline.
 
+## Architecture Diagram
+
+![Architecture Diagram](Screenshots/Devops%20Master%20Class.png)
+
 ## Project Overview
 
 ### Step 1: Fork and Customize Repository
