@@ -18,5 +18,5 @@ variable "amiID"{
 }
 
 variable "sg_name"{
-    default = "WebserverSg"
+    default = "WebserverSgnew"
 }
