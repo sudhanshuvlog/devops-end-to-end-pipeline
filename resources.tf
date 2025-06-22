@@ -14,7 +14,7 @@ resource "aws_instance" "web" {
 }
 
 resource "aws_key_pair" "my_key_pair" {
-  key_name   = "testkeygfg"
+  key_name   = "testkeygfg123"
   public_key = file("./mykey.pub")
 }
 
